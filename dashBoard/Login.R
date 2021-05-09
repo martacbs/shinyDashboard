@@ -25,7 +25,7 @@ output$pass <- renderText({
 # Login info during session ----
 output$userPanel <- renderUI({
   if (USER$Logged == TRUE) {
-    source("/Users/martasantos/Desktop/SystemLogin/InitialPage.R",  local = TRUE)
+    source("/Users/martasantos/Tese_Git/shinyDashboard/dashBoard/InitialPage.R",  local = TRUE)
   }  
 })
 
